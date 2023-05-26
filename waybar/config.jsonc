@@ -7,15 +7,15 @@
     "gtk-layer-shell": true,
     "height": 0,
     "modules-left": [
-        "clock",
-        "custom/weather",
         "wlr/workspaces"
     ],
-    "modules-center": ["hyprland/window"],
+    "modules-center": [
+        "clock"
+    ],
     "modules-right": [
+        "network",
         "tray",
         "custom/updates",
-        "custom/language",
         "battery",
         "backlight",
         "pulseaudio",
@@ -23,8 +23,9 @@
     ],
 
     "hyprland/window": {
-        "format": "{}"
+        "format": "{title}"
     },
+
     "wlr/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
@@ -43,6 +44,14 @@
             "10": []
         }
     },
+
+    "network": {
+        "format-wifi": "\udb81\udda9 {essid}",
+        "format-ethernet": "{ipaddr}/{cidr} \udb80\ude00",
+        "format-disconnected": "Disconnected \udb81\uddaa",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
     "custom/updates": {
         "format": " {}",
         "interval": 7200,                     // every two hours
@@ -73,12 +82,13 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{icon} {capacity}%  ",
+		"format": "{icon} {capacity}%",
 		"format-charging": " {capacity}%  ",
-		"format-plugged": " {capacity}%  ",
+		"format-plugged": "  {capacity}%",
 		"format-alt": "{icon} {time}  ",
 		"format-icons": ["  ", "  ", "  ", "  ", "  "]
 	},
+
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "tooltip": false,
@@ -99,11 +109,16 @@
     },
     "pulseaudio#microphone": {
         "format": "{format_source}",
-        "format-source": " {volume}%  ",
+        "format-source": " {volume}%",
 		"format-source-muted": "  ",
         "on-click": "pamixer --default-source -t",
         "on-scroll-up": "pamixer --default-source -i 5",
         "on-scroll-down": "pamixer --default-source -d 5",
         "scroll-step": 5
+    },
+    "hyprland/language": {
+        "format": "{} \udb80\udf0c",
+        "format-en": "US",
+        "format-es": "ES",
     }
 }

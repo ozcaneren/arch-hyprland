@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: Cartograph CF Nerd Font, monospace;
+    font-family: SF Mono Regular, monospace;
     font-weight: bold;
     font-size: 14px;
     min-height: 0;
@@ -61,9 +61,10 @@ tooltip {
 #backlight {
     background: #1e1e2e;
     padding: 0px 10px;
-    margin: 3px 0px;
+    margin: 3px 1px;
     margin-top: 10px;
     border: 1px solid #181825;
+    border-radius: 10px;
 }
 
 #tray {
@@ -81,20 +82,12 @@ tooltip {
 
 #custom-caffeine {
     color: #89dceb;
-    border-radius: 10px 0px 0px 10px;
-    border-right: 0px;
-    margin-left: 10px;
-}
-
-#custom-language {
-    color: #f38ba8;
-    border-left: 0px;
-    border-right: 0px;
+    border-radius: 10px;
 }
 
 #custom-updates {
     color: #f5c2e7;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     border-left: 0px;
     border-right: 0px;
 }
@@ -107,7 +100,7 @@ tooltip {
 
 #clock {
     color: #fab387;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     margin-left: 5px;
     border-right: 0px;
 }
@@ -126,15 +119,14 @@ tooltip {
 
 #pulseaudio.microphone {
     color: #cba6f7;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
     border-left: 0px;
     border-right: 0px;
-    margin-right: 5px;
 }
 
 #battery {
     color: #a6e3a1;
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px;
     margin-right: 10px;
     border-left: 0px;
 }
