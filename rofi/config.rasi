@@ -15,11 +15,10 @@ configuration{
     dpi: 100;
 }
 
-@theme "/usr/share/rofi/themes/rounded-blue-dark.rasi"
-
 
 window {
     height: 380;
     width: 500;
     border: 3px;
 }
+@theme "./input-emph-nobar.rasi"

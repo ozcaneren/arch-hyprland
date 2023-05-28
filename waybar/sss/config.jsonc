@@ -17,10 +17,9 @@
         "tray",
         "custom/updates",
         "custom/notification",
+        "battery",
         "cpu",
         "memory",
-        "temperature",
-        "battery",
         "backlight",
         "pulseaudio",
         "pulseaudio#microphone"
@@ -68,15 +67,6 @@
         "on-click-right": "swaync-client -d -sw",
         "escape": true
   },
-  
-  "temperature": {
-        // "thermal-zone": 2,
-        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 80,
-        // "format-critical": "{icon} {temperatureC}°C",
-        "format": " {icon} {temperatureC}°C",
-        "format-icons": ["", "", ""]
-    },
 
     "network": {
         "format-wifi": "\udb81\udda9 {essid}",
@@ -98,7 +88,7 @@
         "spacing": 10
     },
     "clock": {
-        "format": "{:  %R   s %d/%m}",
+        "format": "{: %R   %d/%m}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "backlight": {
@@ -119,7 +109,11 @@
 		"format-charging": " {capacity}%  ",
 		"format-plugged": "  {capacity}%",
 		"format-alt": "{icon} {time}  ",
-		"format-icons": ["  ", "  ", "  ", "  ", "  "]
+		"format-icons": ["  ", "  ", "  ", "  ", "  "],
+        "bat": "BAT1",
+        "adapter": "ADP0",
+        "interval": 60,
+        "max-length": 20
 	},
 
     "pulseaudio": {

@@ -1,9 +1,9 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: SF Pro Display;
+    font-family: SF Mono Regular, monospace;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
     min-height: 0;
 }
 
@@ -58,7 +58,6 @@ tooltip {
 #cpu,
 #memory,
 #pulseaudio,
-#temperature,
 #network,
 #workspaces,
 #tray,
