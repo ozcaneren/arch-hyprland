@@ -1,5 +1,5 @@
 configuration {
-    font: "Product Sans 10";
+    font: "SF Pro Display Regular 10";
     show-icons: true;
     icon-theme: "Colloid-dark";
     fullscreen: false;
@@ -19,18 +19,19 @@ configuration {
     urgent: #E91E6366;
     urgent-selected: #E91E6377;
     border-radius: 18px;
+    font: "SF Pro Display Regular 10";
 }
 
 window {
     transparency: "real";
-    background-color: #1917244D;
+    background-color: #08122B;
     text-color: #6e6a86;
     location:                    southeast;
     anchor:                      southeast;
     fullscreen:                  false;
     width:                       500px;
-    x-offset:                    -11px;
-    y-offset:                    -11px;
+    x-offset:                    0px;
+    y-offset:                    0px;
 }
 
 prompt {
@@ -47,9 +48,9 @@ button {
 }
 
 entry {
-    font: "Product sans 12";
+    font: "SF Pro Display Regular 12";
     background-color: @transparent;
-    text-color: #6e6a86;
+    text-color: #fff;
     expand: true;
     vertical-align: 0.5;
     horizontal-align: 0;
@@ -122,7 +123,7 @@ element-icon {
 }
 
 element-text {
-    font: "Product sans 11";
+    font: "SF Pro Display Regular 11";
     expand: true;
     horizontal-align: 0;
     vertical-align: 0.5;

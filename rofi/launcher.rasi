@@ -28,6 +28,8 @@ window {
     text-color: #6e6a86;
     x-offset: 960px;
     y-offset: 0px;
+    width: 720px;
+    height: 500px;
 }
 
 prompt {
