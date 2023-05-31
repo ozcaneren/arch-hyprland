@@ -98,7 +98,7 @@
         "spacing": 10
     },
     "clock": {
-        "format": "{:  %R   s %d/%m}",
+        "format": "{:  %R    %d/%m}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "backlight": {
@@ -124,7 +124,7 @@
 
     "pulseaudio": {
         "format": "{icon} {volume}%",
-        "tooltip": false,
+        "tooltip": true,
         "format-muted": " Muted",
         "on-click": "pamixer -t",
         "on-scroll-up": "pamixer -i 5",

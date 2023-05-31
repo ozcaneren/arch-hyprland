@@ -26,7 +26,7 @@ window {
     transparency: "real";
     background-color: #08122B;
     text-color: #6e6a86;
-    x-offset: 960px;
+    x-offset: 0px;
     y-offset: 0px;
     width: 720px;
     height: 500px;
