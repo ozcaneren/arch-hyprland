@@ -22,6 +22,5 @@ APP
 yay -S firefox visual-studio-code-bin jetbrains-toolbox brave-bin google-chrome webcord spotify steam obs-studio
 ```
 
-![image](https://github.com/ozcaneren/arch-hyprland/assets/100240225/5c39e470-8deb-4077-8345-f89925bc1e7a)
+![image](https://raw.githubusercontent.com/ozcaneren/dotfiles/master/2023-07-02-195534_hyprshot.png)
 
-![image](https://github.com/ozcaneren/arch-hyprland/assets/100240225/ff2c2538-77ad-411a-ac29-eedec2c56f9a)
